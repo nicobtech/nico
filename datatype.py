@@ -18,12 +18,12 @@ list [10, 20, 30, 55]
 (10, 20, 30, 40)
 
 #diccionarios. agrupas datos juntos
-{"nombre":"rayan"
-"apellido":"aha"
+{"nombre":"rayan", 
+"apellido":"aha",
 "apodo":"dtyj"
 }
-{"latitud":18638
+{"latitud":18638,
 "longitud":65789}
 
-print({"latitud":18638
+print({"latitud":18638,
 "longitud":65789})
