@@ -36,7 +36,7 @@ print(myStr.find("o"))
 #len imprime la longitud del string
 print(len(myStr))
 
-#indice de la letra "E". es 1 pq empieza en 0
+#indice de la letra "E". es 1 pq empieza en 0. donde es la primera vez que aparece la letra.
 print(myStr.index("e"))
 
 #para saber si es numerico
@@ -44,7 +44,7 @@ print(myStr.isnumeric())
 #para saber si es alfanumerico
 print(myStr.isalpha())
 
-# saber la posicion dancole el numero
+# saber la posicion dandole el numero.
 print(myStr[4])
 
 #para saber el valor inverso
@@ -53,3 +53,8 @@ print(myStr[-1])
 
 #en este valor "0" voy a colocar la variable "MYSTR"
 print("mi nombre es {0}".format(myStr))
+
+
+pepe = 'qwerty'
+
+print(pepe[2])

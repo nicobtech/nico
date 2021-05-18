@@ -16,7 +16,7 @@ if re.search(textobuscar, cadena) is not None:
 else:
     print(' no lo encontre')
 
-#START nos da el nunmero de caracter de donde empieza la palabra que busco
+#START nos da el numero de caracter de donde empieza la palabra que busco
 textoencontrado = re.search(textobuscar, cadena)
 print(textoencontrado.start())
 
@@ -49,7 +49,11 @@ print(re.search('aprender', cadena).group())
 #>>> re.search(patron, texto).group(1)
 #' dolor sit amet, consectetur ipsum elit. Amet '
 
-
+#La función sub permite reemplazar todos las ocurrencias del patrón por otro patrón en un String.
 texto = "Lorem ipsum dolor sit amet, consectetur ipsum elit. Amet sit amet."
 patron = "ipsum(.*?)sit"
 print(re.sub(patron, "###", texto))
+
+Texto = "hola estoy bien"
+Patron = "bien"
+print(re.sub(Patron, "mal", Texto))
