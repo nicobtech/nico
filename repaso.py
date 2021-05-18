@@ -13,3 +13,15 @@ for valor in diccionario.keys():
 print(contador)
 
 print(sum(diccionario.values()))
+
+# Escribí un programa que obtenga, a partir de una lista de strings una lista con la longitud de esas strings e imprima la longitud de la lista de strings y los elementos de la lista de longitudes.
+
+colores = ['red', 'yellow', 'brown']
+print(len(colores))
+for elementos in colores:
+    print(len(elementos))
+
+
+# Realizá un programa que a partir de una lista mixta (que contiene distintos tipos de datos) 
+# imprima cuántos enteros tiene y además en el caso de los elementos que sean strings hay que crear una nueva 
+# lista con estos strings pero reemplazando al A por la U (tanto mayúscula como minúscula) y luego imprimir estos elementos.
