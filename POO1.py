@@ -40,4 +40,4 @@ micoche2 = coche
 print('el largo del coche 2 es: ',micoche2.largochasis)
 print('el coche 2 tiene ', micoche2.ruedas, 'ruedas')
 #le pregunto por mi estado
-print(micoche2.estado(True))
+print(micoche2.estado())
