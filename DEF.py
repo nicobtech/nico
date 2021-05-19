@@ -4,7 +4,7 @@
 def hello():
     print('helloworld')
 hello()
-#defino que en la variable cuando ponga "hola" y en el parentecis mi nombre aparezca "hola nico". se hace medianto poniendo
+#defino que en la variable cuando ponga "hola" y en el parentecis mi nombre aparezca "hola nico". se hace mediante poniendo
 #la palabra "nombre" y despues que se imprima el "hola" +  el nombre. (tiene que haber un espacio entre la segunda comilla 
 # y y el "hola" para  que haya un espacio). se pone el ='person' porque
 def hola(nombre='person'):
