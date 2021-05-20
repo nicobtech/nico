@@ -16,3 +16,17 @@ print (archivo.read())
 
 # ¡Es muy importante cerrar los archivos una vez abiertos!
 #cerrar un archivo luego de abrirlo? Existe un método close():
+''' archivo = open(path_al_archivo, modo) 
+archivo.close() '''
+
+# otra forma de apertura de archivos que nos ahorra este paso y siempre nos asegura el cierre de adecuado:
+''' with open(path_al_archivo, modo) as miarch: '''
+    #Aquí van las líneas de procesamiento del archivo
+
+
+# EJEMPLO IMPORTNATE: crear archivo de texto:
+archivo = open("Archivo_de_texto_pruebaa","w")  #el nombre de archivo que quiera crear, lueego pongo 'W' para "escribir"
+archivo.write("hola\n")  #escribo lo que quiero poner. si qioero poner mas cosas pongo archivo write devuelta.
+archivo.write("como estas")
+
+archivo.close()         #despues hay que cerrarlo si o si.
