@@ -12,7 +12,7 @@ print(number_list)
 print(type(number_list))
 
 #crear lista basada en un rango: de donde a donde quiero crear una lista
-# entonces pongo "crea una lista a partir de este rango:"
+# entonces pongo "crea una lista a partir de este rango:" NO CUENTA EL ULTIMO NUMERO!!!!
 r = list(range(1, 10))
 print(r)
 
@@ -35,7 +35,7 @@ colores[1] = 'rosa'
 print(colores)
 
 #le agrego violet a la lista.
-#APPEND sol agrega a 1 solo elemento a la lista.
+#APPEND solo agrega a 1 solo elemento a la lista.
 colores.append('violet')
 print(colores)
 

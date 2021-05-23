@@ -9,7 +9,7 @@ cadena = 'vamos a aprender exp regulares vamos a aprender'
 print(re.search('aprender', cadena))
 
 
-# si 'TEXTOBUSCAR' esta en cadena y no es NONE, imprimi algo y si no imprimi lo otro
+# si 'TEXTOBUSCAR' esta en cadena y no es NONE (OBJETO VACIO) osea que la busqueda encontro algo, imprimi algo y si no imprimi lo otro
 textobuscar = 'vamos'
 if re.search(textobuscar, cadena) is not None:
     print('lo encontre')

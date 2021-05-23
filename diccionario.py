@@ -5,7 +5,7 @@ producto = { 'nombre': "book", "cantidad": 3,"precio": 4.99}
 persona = {'nombre': 'juan', 'apellido': 'perez'}
 # los diccionario se usan para definir cosas de la vida real o poder agrupar distintos datos.
 
-#se define como "dict"
+#se define como "dict".
 print(type(producto))
 
 #que puedo hacer con el diccionario:

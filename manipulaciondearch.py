@@ -16,11 +16,11 @@ print (archivo.read())
 
 # ¡Es muy importante cerrar los archivos una vez abiertos!
 #cerrar un archivo luego de abrirlo? Existe un método close():
-''' archivo = open(path_al_archivo, modo) 
-archivo.close() '''
+archivo = open(path_al_archivo, modo) 
+archivo.close()
 
 # otra forma de apertura de archivos que nos ahorra este paso y siempre nos asegura el cierre de adecuado:
-''' with open(path_al_archivo, modo) as miarch: '''
+with open(path_al_archivo, modo) as miarch: 
     #Aquí van las líneas de procesamiento del archivo
 
 

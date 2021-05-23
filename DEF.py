@@ -13,7 +13,7 @@ hola('nico')
 hola('coso')
 
 
-#otra funcion: aca pongo que para la funcion "add" pasa que se suman los dos numero que poingo en el parentesis.
+#otra funcion: aca pongo que para la funcion "add" para que se sumen los dos numero que pongo en el parentesis.
 def add(numbreone, numbertwo):
     return numbreone + numbertwo
 print(add(10, 30))

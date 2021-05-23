@@ -15,8 +15,8 @@ for element in lista_nombres:
 #[N]: busca cuantas veces fue escrito el caractero o palabra que hayas buscado. te va a dar niños y niñas.
 urls = ["hombres", "mujeres", "mascotas", "niños", "niñas"]
 
-[print(coso) for coso in urls 
-        if re.findall("niñ[oa]s", coso)] 
+[print(url) for url in urls 
+        if re.findall("niñ[oa]s", url)] 
 
 #aca te dan los que tienen la E. serian hombres y mujeres. tambien lo puedo hacer con las tildes.
 [print(url) for url in urls 

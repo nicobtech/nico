@@ -28,7 +28,7 @@
 # la velocidad debería ser 80 y el consumo 0.15 litros/km.
 # """
 
-import pa
+
 
 class Auto():
 	def __init__(self):

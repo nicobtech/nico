@@ -7,10 +7,12 @@ r = requests.get("https://ponyweb.ml/v1/character/45")
 #si quiero saber las canciones: pongo song 
 r = requests.get("https://ponyweb.ml/v1/song/all")
 #quiero saber el status code:
-r.status_code  ''' da 200 '''
+r.status_code  #da: 200
 #quiero saber el conent type:
-r.headers  da: 
-#quiero saber cuantos ponys
+r.headers  #da: 'Content-Type': 'application/json; charset=UTF-8'}
+#quiero saber cuantos ponys o cual es la cantidad de lo que estoy buscando:
+r.json()
+
 
 
 

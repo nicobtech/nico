@@ -44,7 +44,7 @@ print(myStr.isnumeric())
 #para saber si es alfanumerico
 print(myStr.isalpha())
 
-# saber la posicion dandole el numero.
+# saber la posicion de la letra dandole el numero.
 print(myStr[4])
 
 #para saber el valor inverso
@@ -53,8 +53,3 @@ print(myStr[-1])
 
 #en este valor "0" voy a colocar la variable "MYSTR"
 print("mi nombre es {0}".format(myStr))
-
-
-pepe = 'qwerty'
-
-print(pepe[2])
